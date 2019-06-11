@@ -7,10 +7,13 @@ import com.zipcodewilmington.danny_do_better_exercises.mathutilities.TestSubtrac
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
+import org.junit.Assert;
+import org.junit.runners.Suite.SuiteClasses;
 
 import static org.junit.Assert.*;
 /**
  * Created by dan on 6/14/17.
+ *
  */
 
 @RunWith(Suite.class)
@@ -21,4 +24,5 @@ import static org.junit.Assert.*;
         TestMultiplication.class
 })
 public class TestMathUtilities {
+
 }
